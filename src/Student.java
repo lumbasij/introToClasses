@@ -28,4 +28,8 @@ public class Student {
             this.course=c;
         }
 
+    @Override
+    public String toString() {
+        return this.name +" "+this.course;
+    }
 }

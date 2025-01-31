@@ -1,2 +1,3 @@
-public class SpecialStudent  extends Student{
+public class SpecialStudent  extends Student
+{ double fees;
 }

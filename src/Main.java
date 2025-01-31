@@ -12,6 +12,9 @@ public class Main{
 
        Student webStudent1=new Student("Ann","web");
         System.out.println(webStudent1.getName() +" "+ webStudent1.getCourse());
+
+        OrdinaryStudent pythonStudent1 = new OrdinaryStudent("Peter","Python");
+        pythonStudent1.toString();
     }
 
 }
